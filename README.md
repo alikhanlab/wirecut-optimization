@@ -1,2 +1,2 @@
-# wirecut-optimization
+# Wirecut-optimization
 Wire cut optimization

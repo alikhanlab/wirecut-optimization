@@ -1,0 +1,27 @@
+1. Install Anaconda
+
+2. Run every install on Anaconda
+
+3. Install make.
+conda install -c anaconda make
+
+4. Install brew 
+
+https://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/
+
+5. Install gcc compiler
+
+brew info gcc 
+
+brew install gcc
+
+6. conda install -c conda-forge gcc
+
+7. brew install make
+
+8. brew install bash
+
+9. pip install pyvpsolver
+
+
+ 

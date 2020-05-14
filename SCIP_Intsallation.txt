@@ -1,0 +1,26 @@
+Instruction to install SCIP on MacOS
+
+(See instruction here: https://travis-ci.org/github/Zialus/MAD-Wine-Assignment/jobs/419882588) 
+
+
+0. /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" (install homebrew)
+
+1. brew install wget (install wget)
+
+2. brew install cmake (install cmake)
+
+3. wget http://scip.zib.de/download/release/scipoptsuite-6.0.0.tgz
+
+4. tar xf scipoptsuite-6.0.0.tgz
+
+5. cd scipoptsuite-6.0.0
+
+6. mkdir build && cd build
+
+7. cmake ..
+
+8. make -j2
+
+9. sudo make install
+
+ 

@@ -3,16 +3,16 @@ Resource allocation optimization project.
 
 ## Background and Application
 
-The motivation behind this project is there are many application of resource allocation problem. For example, client come to manufacturer and asks some product with required properties and manufacturer go to warehouse and satisfy client's demand with given requirements from inventory. In this project product is wire, with length and quantity as client requirement. Application  performs optimization of usage of inventory and satisfying all given demand from clients. 
+The motivation behind this project is there are many applications of resource allocation problems. For example, the client comes to the manufacturer and asks some product with required properties and manufacturer go to a warehouse and satisfy client's demand with given requirements from inventory. In this project, the product is wire, with length and quantity as client requirement. The application performs optimization of usage of inventory and satisfying all given demand from clients. 
 
 ## Methodology
 
-Used different heruistics to get optimal solutions.
+Used different heuristics to get optimal solutions. Minimal scrap after satisfying demand.
 
-- FFD (First Fit Decresing)
+- FFD (First Fit Decreasing)
 - Arc-Flow. 
 
-Arc-Flow formulation scaled well on big inputs, and main application file uses arc-flow only.
+Arc-Flow formulation scaled well on big inputs, and the main application file uses arc-flow only.
 
 ## Dependencies
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 - pyvpsolver (see installation instruction). Arc-flow formulation implementation by Filipe Brandao. [here](https://github.com/fdabrandao/vpsolver)
 
 - Linear Optimization Solvers:
-  - Gurobi. Commercial solver, get free academic license [here](https://www.gurobi.com/)
+  - Gurobi. Commercial solver, get a free academic license [here](https://www.gurobi.com/)
   - SCIP. Fast open source solver, download [here](https://www.scipopt.org/)
   - GLPK. Open source solver, download [here](https://www.gnu.org/software/glpk/)
   

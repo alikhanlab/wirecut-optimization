@@ -1,0 +1,5 @@
+python>=3.7
+pyvpsolver
+pandas
+numpy
+timeout_decorator
